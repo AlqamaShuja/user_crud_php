@@ -1,0 +1,80 @@
+body {
+    font-family: verdana;
+    font-size: 1.2rem;
+    /* width: 100vw; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.addUser,
+.addUser:visited {
+    /* display: flex; */
+    width: fit-content;
+    padding: 6px 10px;
+    margin: 6px;
+    align-self: center;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    color: dodgerblue;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.addUser:hover {
+    color: black;
+    background-color: gold;
+    border: 3px solid gold;
+}
+
+#users {
+    border-collapse: collapse;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+}
+
+#users td,
+#users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.update,
+.update:visited {
+    color: dodgerblue;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.update:hover {
+    color: darkblue;
+}
+
+.delete:hover {
+    color: red;
+}
