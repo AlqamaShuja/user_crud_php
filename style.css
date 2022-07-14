@@ -63,7 +63,8 @@ label {
     border: 3px solid gold;
 }
 
-#users {
+#users table {
+    /* display: inline-block; */
     margin-top: 1rem;
     border-collapse: collapse;
     width: 90%;
@@ -113,19 +114,27 @@ label {
     width: 90vw;
 }
 
-#pagiantion > a {
+.notActive {
     background:  red;
     color: #FFF;
     text-decoration: none;
     display: inline-block;
-    width: 2rem;
+    width: 1.7rem;
     /* height: 3rem; */
     padding: auto;
     text-align: center;
     margin-top: 2rem;
-    margin-left: auto;
+    margin-left: 5px;
 }
 
 .active {
-    background:  green !important;
+    background:  green;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    width: 1.7rem;
+    padding: auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 5px;
 }

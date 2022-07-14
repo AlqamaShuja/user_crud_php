@@ -15,7 +15,7 @@
             <label for="search">Search</label>
             <input type="text" name="search" id="search" placeholder="Search.." />
         <div>
-        <table id="users">
+        <div id="users">
             <!-- <tr>
                 <th>S.No</th>
                 <th>Name</th>
@@ -24,15 +24,10 @@
                 <th>Update User</th>
                 <th>Delete User</th>
             </tr> -->
-        </table>
+        </div>
 
         
     </div>
-    <!-- <div id="pagiantion">
-        <a class="active" id="1" href="">1</a>
-        <a class="" id="2" href="">2</a>
-        <a class="" id="3" href="">3</a>
-    </div> -->
 
     <script src="ajax_get.js"></script>
 </body>
